@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarLayoutFloatingInline from '@/components/navbar/NavbarLayoutFloatingInline';
@@ -70,21 +70,21 @@ export default function LandingPage() {
               id: "sushi-premium",
               imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34my1kGeblbsCcwUUCcjBY9WFkg/uploaded-1765463375615-8e8nvks3.jpg",
               imageAlt: "Premium Sushi Platter",
-              button: { text: "Order", id: "order-sushi" },
+              button: { text: "Order" },
               isFavorited: false
             },
             {
               id: "ramen-special",
               imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34my1kGeblbsCcwUUCcjBY9WFkg/uploaded-1765463376616-8l3fubpr.jpg",
               imageAlt: "Signature Ramen Bowl",
-              button: { text: "Order", id: "order-ramen" },
+              button: { text: "Order" },
               isFavorited: false
             },
             {
               id: "sake-selection",
               imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34my1kGeblbsCcwUUCcjBY9WFkg/uploaded-1765463377591-u4x7mify.jpg",
               imageAlt: "Premium Sake Selection",
-              button: { text: "Order", id: "order-sake" },
+              button: { text: "Order" },
               isFavorited: false
             }
           ]}
